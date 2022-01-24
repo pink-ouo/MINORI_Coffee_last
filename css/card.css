@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Anaheim);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+.hc-card-control{
+	width: 100%;
+	height: 300px;
+	padding: 0;
+}
+ .cc {
+	 background: #c9c9c9;
+	 height: 280px;
+	 margin: 0;
+	 overflow: hidden;
+	 padding: 20px;
+	 position: relative;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 width: 490px;
+	 background: linear-gradient(180deg, rgba(255, 255, 255,0.2), transparent );
+     border-radius: 16px;
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+ .hc-card-title {
+	 color: #fff;
+	 margin-bottom:16px;
+	 padding: 0;
+	 text-align: right;
+}
+ span {
+	 text-transform: uppercase;
+}
+ .number, .date {
+	 margin-bottom: 10px;
+}
+ .provider {
+	 display: inline-block;
+	 margin: 0 10px 10px 0;
+	 width: 71px;
+	 height: 44px;
+}
+ .mastercard, .visa, .amex {
+	 background: url(http://pmullen.com/codepen/63JxOEI.png);
+	 text-indent: 100%;
+	 white-space: nowrap;
+	 overflow: hidden;
+}
+ .amex {
+	 background-position: 71px 0;
+}
+ .visa {
+	 background-position: 147px 0;
+}
+.card_border {
+	 background: #ececec;
+	 border: 0;
+	 border-radius: 4px;
+	 font: 20px Inconsolata, sans-serif;
+	 color: #303030;
+	 margin: 0 2px 3px 0;
+	 padding: 8px 10px;
+	 text-align: center;
+	 width: 23%;
+	 
+	 box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.05);
+	 position: relative;
+	 z-index: 10;
+}
+.card_border:nth-child(4) {
+	 margin-right: 0;
+}
+ .date input {
+	 margin-right: 20px;
+}
+ .valid {
+	 position: relative;
+	 margin-right: 10px;
+	 width: 40px;
+}
+ .full-name {
+	 width: 100%;
+	 text-align: left;
+}
+ .instructions {
+	 letter-spacing: 1px;
+	 font: 12px Anaheim, sans-serif;
+	 color: #ffff;
+	 opacity: 50%;
+}
+@media screen and (max-width:576px) {
+	.cc{
+		width: 100%;
+	}
+	.number{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.hc-card_border{
+		flex: 3;
+		margin: 0 4px 4px;
+	}
+	.hc-card_span{
+		width: 100%;
+	}
+}

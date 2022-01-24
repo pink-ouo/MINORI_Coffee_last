@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="check" transform="translate(-1435 -230)">
+    <g id="Ellipse_362" data-name="Ellipse 362" transform="translate(1435 230)" fill="none" stroke="#50e455" stroke-width="4">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="23" fill="none"/>
+    </g>
+    <g id="Yes" transform="translate(1447 242)">
+      <path id="Checkbox" d="M11.114,23,1,11.2,3.4,8.4l7.714,8.8L25,1l2.4,2.8Z" transform="translate(-1 1)" fill="#50e455"/>
+      <rect id="Rectangle_556" data-name="Rectangle 556" width="27" height="27" fill="none"/>
+    </g>
+  </g>
+</svg>

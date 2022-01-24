@@ -1,0 +1,42 @@
+/* .star-widget .input{
+  display: none;
+  opacity: 0.5;
+  float: right;
+  position:relative;
+  left: -20px;
+  top: 2px;
+  z-index: 5;
+  opacity: 0;
+} */
+.star-widget .input{
+  display: none;
+}
+.star-widget{
+  position: relative;
+  padding-left: 16px;
+}
+.hc-star{
+  position: relative;
+  margin: 0 4px;
+}
+.star-widget .hc-star{
+  font-size: 16px;
+  color: rgba(255, 255, 255,0.2);
+  float: right;
+  transition: all 0.2s ease;
+}
+.input:not(:checked) ~ .hc-star:hover,
+.input:not(:checked) ~ .hc-star:hover ~ .hc-star{
+  color: #fd4;
+}
+.input:checked ~ .hc-star{
+  color: #fd4;
+}
+.input#rate-5:checked ~ .hc-star{
+  color: #fd4;
+  text-shadow: 0 0 20px #952;
+}
+.star-grp{
+  width: 20px;
+  height: 20px;
+}

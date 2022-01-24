@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-size: 1rem;
+    line-height: 1.31;
+}
+p{
+    letter-spacing: 0.1em;
+}
+:root{
+    --main-color:#CC9A06;
+    --second-color:#7C674E;
+    --warning-color:#ff5e52;
+    --hover-color:#ffc61c;
+    --font-main-color:#ffff;
+    --bg-dark-color:rgb(0, 0, 0);
+    --screen-sm-min: 768px;
+    --screen-md-min: 992px;
+    --screen-lg-min: 1200px;
+    --screen-xl-min: 1440px;
+    --screen-xg-min: 1920px;
+}
+img{
+    width: 100%;
+}
+/* /////////////////////////////////////// */
+/* ///////////////// coupon page */
+.pc-couponGet{
+    width: 100%;
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+.pc-coupon-container{
+    padding: 0 50px;
+}
+.pc-coupon-title{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--main-color);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 24px;
+}
+/* ///////////////// card */
+.pc-couponGet-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.pc-gradient-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background:linear-gradient(180deg, rgba(255, 255, 255,0.2), transparent );
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 16px;
+}
+.pc-bean-img{
+    width: 60px;
+    margin-bottom: 8px;
+}
+.pc-card-title{
+    text-align: center;
+    font-weight: 700;
+    color: var(--main-color);
+}
+.pc-card-second-title{
+    color: var(--font-main-color);
+    margin-bottom: 8px;
+}
+.pc-ticket-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../img/coffee-ticket-black.svg") no-repeat;
+    width: 300px;
+    height: 140px;
+    padding: 8px;
+    text-align: center;
+}
+.pc-discount{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+}
+.pc-20{
+    color: var(--main-color);
+    margin: 0 16px;
+}
+.pc-ticket-img span{
+    color: var(--font-main-color);
+}
+.pc-text{
+    color: var(--font-main-color);
+    opacity: 50%;
+}
+/* ///////////////// button */
+.pc-btn-starShop{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
